@@ -75,3 +75,10 @@ document.querySelector("ul li:nth-child(2)");
 
 document.querySelectorAll('li')[0].style.color='red';
 
+visibility: hidden;
+
+
+
+
+
+
