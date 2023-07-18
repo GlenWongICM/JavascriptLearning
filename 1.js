@@ -79,6 +79,7 @@ visibility: hidden;
 
 
 
+document.querySelector('.lists').classList.toggle('invisible');
 
 
 
