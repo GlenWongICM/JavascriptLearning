@@ -83,3 +83,8 @@ document.querySelector('.lists').classList.toggle('invisible');
 
 
 document.querySelector('.lists').classList.toggle('huge');
+
+
+
+document.querySelector(".lists li:nth-child(2)").innerHTML;
+
