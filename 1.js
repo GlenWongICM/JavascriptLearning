@@ -50,7 +50,15 @@ function fibonacciGenerator(n) {
 document.firstElementChild.lastElementChild.lastElementChild.lastElementChild.innerHTML="Angela";
 
 
-
+document.getElementsByTagName("li")[2].innerText = 123;
+123
+document.getElementsByTagName("li")[2].innerHTML = 123;
+123
+document.getElementsByTagName("li")[2].innerHTML = 12344;
+12344
+document.getElementsByTagName("li")[2].textContent = 12344;
+12344
+document.getElementsByTagName("li")[2].textContent = 123442345;
 
 
 
