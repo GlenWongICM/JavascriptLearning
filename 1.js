@@ -88,4 +88,5 @@ document.querySelector('.lists').classList.toggle('huge');
 
 document.querySelector(".lists li:nth-child(2)").innerHTML;
 document.querySelector("a").attributes;
+document.querySelector("a").getAttribute("href");
 
