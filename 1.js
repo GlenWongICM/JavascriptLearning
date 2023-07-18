@@ -62,4 +62,10 @@ document.getElementsByTagName("li")[2].textContent = 123442345;
 
 document.getElementsByTagName("li")[2].style.color = 'red';
 
-
+<ul class="lists">
+    <li>Google</li>
+    <li>Seconed</li>
+    <li>Third</li>
+</ul>
+document.querySelector("ul li:nth-child(2)");
+<li>​::marker​"Seconed"</li>​
