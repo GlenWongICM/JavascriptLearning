@@ -69,3 +69,9 @@ document.getElementsByTagName("li")[2].style.color = 'red';
 </ul>
 document.querySelector("ul li:nth-child(2)");
 <li>​::marker​"Seconed"</li>​
+
+
+
+
+document.querySelectorAll('li')[0].style.color='red';
+
