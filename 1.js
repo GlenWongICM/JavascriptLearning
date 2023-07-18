@@ -60,5 +60,6 @@ document.getElementsByTagName("li")[2].textContent = 12344;
 12344
 document.getElementsByTagName("li")[2].textContent = 123442345;
 
+document.getElementsByTagName("li")[2].style.color = 'red';
 
 
