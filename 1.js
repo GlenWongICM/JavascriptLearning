@@ -82,4 +82,4 @@ visibility: hidden;
 document.querySelector('.lists').classList.toggle('invisible');
 
 
-
+document.querySelector('.lists').classList.toggle('huge');
