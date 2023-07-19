@@ -90,3 +90,17 @@ document.querySelector(".lists li:nth-child(2)").innerHTML;
 document.querySelector("a").attributes;
 document.querySelector("a").getAttribute("href");
 
+
+
+<script>
+    document.querySelector("button").addEventListener("click", handleClick);
+    function handleClick() {
+      alert("I got clicked");
+    }
+  </script>
+callback function used to call later, and pass it as parameter.
+
+
+
+
+
