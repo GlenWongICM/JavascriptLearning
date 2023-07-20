@@ -156,7 +156,12 @@ var p2 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"]);
 var p3 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"], moveSuitcase: function() {
                     alert("May I take your suitcase?");
                     pickUpSuitcase();
-                    move(););
+                    move();
+                    clean: function() {
+                        alert("cleaning in progress");
+                    }
+                }
+            );
 
 
 
