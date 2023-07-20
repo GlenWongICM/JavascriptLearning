@@ -163,7 +163,7 @@ var p3 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"], moveSuitcase: fun
                 }
             );
 
-
+p3.clean();
 
 
 
