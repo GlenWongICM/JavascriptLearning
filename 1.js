@@ -133,7 +133,14 @@ for (var i = 0; i < n; i++) {
 }
 
 
+Constructor Function:
 
+function BellBoy(name, age, hasWorkPermit, languages) {
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWorPermit;
+    this.languages = languages;
+}
 
 
 
