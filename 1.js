@@ -120,7 +120,17 @@ debugger; // debug statement
 
 
 
+var n = document.querySelectorAll(".drum").length;
 
+for (var i = 0; i < n; i++) {
+    var comp = document.querySelectorAll('.drum')[i];
+    comp.addEventListener('click', function() {
+        console.log(this.style.color="white");
+        //this.setAttribute("class", "w drum color");
+        var audio = new Audio("./sounds/tom-1.mp3");
+        audio.play();
+    })
+}
 
 
 
