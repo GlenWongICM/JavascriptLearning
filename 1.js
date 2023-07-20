@@ -143,6 +143,15 @@ function BellBoy(name, age, hasWorkPermit, languages) {
 }
 
 
+function BellBoy(name, age, hasWorkPermit, languages) {
+    this.name = name;
+    this.age = age;
+    this.hasWorkPermit = hasWorkPermit;
+    this.languages = languages;
+}
+
+var p1 = new BellBoy("Tom", 11, "yes", "English");
+var p2 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"]);
 
 
 
