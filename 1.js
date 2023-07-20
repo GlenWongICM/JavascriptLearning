@@ -274,6 +274,9 @@ unix command:
 rm *    // delete all 
 rm -r directory name // deleta all files within the directory including the directory folder
 
+minify javascript or css code, 
+www.minifier.org
+
 
 
 
