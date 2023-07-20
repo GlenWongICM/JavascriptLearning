@@ -165,7 +165,26 @@ var p3 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"], moveSuitcase: fun
 
 p3.clean();
 
+function BellBoy(name, age, hasCar, cuisines) {
+    this.name = name;
+    this.age = age;
+    this.hasCar = hasCar;
+    this.cuisines = cuisines;
+    this.moveSuitcase = function() {
+        alert("May I take your suitcase?");
+        this.pickUpSuitcase();
+        this.move();
+    };
+    this.clean = function() {
+        alert("cleaning in progress");
+    };
+}
 
+var p3 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"]);
+p3.clean();
+
+undefined
+p3.moveSuitcase();
 
 
 
