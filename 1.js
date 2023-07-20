@@ -250,5 +250,20 @@ function makeSound(buttonInnerHTML) {
 
     
 
+function anotherAddEventListener(typeOfEvent, callback) {
+    var eventThatHappened = {
+        eventType: "keypress",
+        key: "p",
+        durationOfKeypress: 2
+    }
+    
+    if (eventThatHappened.eventType == typeOfEvent) {
+        callback(eventThatHappened);
+    }
+}
+debugger;
+anotherAddEventListener("keypress", function(event) {
+    console.log(event);
+});
 
 
