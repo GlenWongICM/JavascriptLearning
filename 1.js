@@ -153,7 +153,10 @@ function BellBoy(name, age, hasWorkPermit, languages) {
 var p1 = new BellBoy("Tom", 11, "yes", "English");
 var p2 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"]);
 
-
+var p3 = new BellBoy("Geoff", 15, "no", ["Korean", "Arabica"], moveSuitcase: function() {
+                    alert("May I take your suitcase?");
+                    pickUpSuitcase();
+                    move(););
 
 
 
