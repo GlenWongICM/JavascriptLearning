@@ -5,4 +5,7 @@ Ctrl + c is a way to get out of command line interface..
 
 
   
+var gen  = require('sillyname');
+var sillyName = gen ();
 
+console.log(`My nam is ${sillyName}.`);
